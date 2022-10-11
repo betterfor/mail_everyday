@@ -39,7 +39,7 @@ func main() {
 		log.Fatal("cannot parse html template error: ", err)
 	}
 
-	fi, err := os.OpenFile("output/"+outputFile, os.O_CREATE|os.O_RDWR, os.ModePerm)
+	fi, err := os.OpenFile("output/"+outputFile, os.O_CREATE|os.O_RDWR|O_SYNC, os.ModePerm)
 	if err != nil {
 		log.Fatal("cannot open file output/output.html", err)
 	}
