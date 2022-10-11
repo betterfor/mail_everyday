@@ -38,7 +38,7 @@ jobs:
           message: "generate output html"
           
       - name: Send Mail
-        uses: betterfor/action-send-mail@v0.1.0
+        uses: betterfor/action-send-mail@main
         with:
           # 必需，邮件服务器地址
           server_address: smtp.qq.com
