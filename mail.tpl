@@ -48,7 +48,7 @@
             <div style="margin:10px auth; width:85%; color:#5f5e5e">{{ .OneData.Content }}</div>
             <span style="display:block; margin-top: 25px; color: #9d9d9d; font-size:22px">{{ .OneData.Date }}</span>
             <img src="{{ .OneData.ImgUrl }}" style="width: 100%; margin-top: 10px;" alt="">
-            <span style="color:#b0b0b0; font-size:13px">{{ .OneData.Type }}</span>
+            <span style="color: #b0b0b0; font-size:13px">{{ .OneData.Type }}</span>
         </div>
     </body>
 </html>
