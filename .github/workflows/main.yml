@@ -29,6 +29,7 @@ jobs:
       - name: Run everyday job
         run: |
           rm -rf output/output.html
+          touch output/output.html
           go run main.go
           
       - name: Push to github
