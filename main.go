@@ -55,6 +55,7 @@ func GetMailContent() MailContent {
 	if err != nil {
 		fmt.Println(err)
 	}
+	fmt.Println(oneData)
 	tips, days, err := getWeather()
 	if err != nil {
 		fmt.Println(err)
