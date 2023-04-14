@@ -28,11 +28,8 @@ jobs:
 
       - name: Run everyday job
         run: |
-          ls
-          ls output
           rm -rf output/output.html
-          ls 
-          ls output
+          mkdir output
           touch output/output.html
           go run main.go
           
